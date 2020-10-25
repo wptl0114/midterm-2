@@ -1,0 +1,51 @@
+<html><head>
+        <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/reset.css">
+         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+          <script src="js/index.js"></script>   
+          <script src="js/jquery.vide.js"></script>
+     </head>
+         <body data-vide-bg="video/ocean" style="position: relative;"><div style="position: absolute; z-index: -1; top: 0px; left: 0%; bottom: 0px; right: 0%; overflow: hidden; background-size: cover; background-color: transparent; background-repeat: no-repeat; background-position: 50% 50%; background-image: none;"><video autoplay="" loop="" muted="" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; width: auto; height: 0px;"><source src="video/ocean.mp4" type="video/mp4"></video></div>
+
+
+    <div class="original"> 
+    <img src="img/original2.png">
+     </div>
+    <div class="batman"> 
+    <img src="img/bat ex3.png">
+     </div>
+    <div class="harvey"> 
+    <img src="img/har ex4.png">
+     </div>
+    <div class="joker"> 
+    <img src="img/jok ex4.png">
+     </div>
+         <div class="batman-ment"> 
+    <img src="img/bat font.png">
+     </div>
+         <div class="harvey-ment"> 
+    <img src="img/har font.png">
+     </div>
+         <div class="joker-ment"> 
+    <img src="img/jok font.png">
+     </div>
+</div>
+
+    </body>
+</html>
+
+
+     
+<script>
+$(document).ready(function () {
+// $(document.body).vide('video/ocean'); // Non declarative initialization
+ 
+ var instance = $(document.body).data('vide'); // Get the instance
+ var video = instance.getVideoObject(); // Get the video object
+// instance.destroy(); // Destroy instance
+ });
+</script>
+
+
+</body></html>
